@@ -394,7 +394,8 @@ void C手写板图形View::OnFileSave()
 		bf.Close();
 	}
 	GlobalFree(lpData);
-	OutputDebugString(L"图片保存成功");
+	
+	OutputDebugString(L"图片保存成功 "+ ss);
 	//AfxMessageBox("图片保存成功！");
 	//SaveFlag = TRUE;
 }
